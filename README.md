@@ -11,3 +11,9 @@ http://overpass-turbo.eu/s/i7M
 1. Compare OSM data to county data (using QGIS and Overpass turbo)
 2. Possibly create a MapRoulette challenge asking for a trace of any node marked leisure=park
 3. Possibly use the county's feature tilelayer to help define perimeters of park.
+
+# Add L.A. County's feature tile layer to JOSM
+1. In JOSM, go to Imagery > Imagery Preferences
+2. Click the plus and "TMS" near the bottom right
+3. Enter this URL `http://cache.gis.lacounty.gov/cache/rest/services/LACounty_Cache/LACounty_StreetMap/MapServer/tile/{zoom}/{y}/{x}`
+4. Enter a name like `LA County features`
