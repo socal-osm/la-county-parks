@@ -17,3 +17,9 @@ http://overpass-turbo.eu/s/i7M
 2. Click the plus and "TMS" near the bottom right
 3. Enter this URL `http://cache.gis.lacounty.gov/cache/rest/services/LACounty_Cache/LACounty_StreetMap/MapServer/tile/{zoom}/{y}/{x}`
 4. Enter a name like `LA County features`
+
+### Add L.A. County's feature tile layer to iD editor
+1. Under the "Edit" mode in iD, click on the "Background settings" icon on the far right.
+2. Select the magnifying glass next to "Custom"
+3. Paste in this URL and hit "OK" `http://cache.gis.lacounty.gov/cache/rest/services/LACounty_Cache/LACounty_StreetMap/MapServer/tile/{zoom}/{y}/{x}`
+![osm-tilelayer](https://cloud.githubusercontent.com/assets/695934/18134836/a71b9448-6f54-11e6-9e96-fae3df0e249c.gif)
